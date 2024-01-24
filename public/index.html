@@ -1,10 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    
-  </head>
-  <body>
-    
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Library App</title>
+</head>
+<body>
+  <header>
+    <h1>Your Library</h1>
+    <input type="text" id="searchInput" placeholder="Search for books...">
+    <button onclick="searchBooks()">Search</button>
+  </header>
+
+
+  <section id="mustReadList">
+    <h2>Must-Read List</h2>
+    <!-- Books added to the Must-Read list will be displayed here -->
+  </section>
+
+  <section id="alreadyReadList">
+    <h2>Already Read</h2>
+    <!-- Books marked as Already Read will be displayed here -->
+  </section>
+
+  <section id="bookRecommendations">
+    <h2>Book Recommendations</h2>
+    <!-- Recommended books based on user history will be displayed here -->
+  </section>
+
+  <section id="userAccountInfo">
+    <h2>User Account Information</h2>
+    <!-- Display user account information here (name, profile picture, etc.) -->
+  </section>
+
+  <section id="bookDetails">
+    <h2>Book Details</h2>
+    <!-- Book info -->
+  </section>
+
+
+  <footer>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Search</a>
+      <a href="#">User Account Settings</a>
+      <!-- May make adjustments to this -->
+    </nav>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
 </html>
